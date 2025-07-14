@@ -3,55 +3,6 @@
 ## Overview
 Quick Poll Creator is a full-stack application for creating, editing, deleting, and voting on polls. Built with Next.js (frontend) and Express.js (backend), it uses TypeScript for type safety and Tailwind CSS for modern styling.
 
-## Project Structure
-```
-quick-poll-creator
-├── backend
-│   ├── src
-│   │   ├── app.ts
-│   │   ├── routes
-│   │   │   └── polls.ts
-│   │   ├── data
-│   │   │   └── polls.ts
-│   │   └── types
-│   │       └── poll.ts
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── README.md
-├── frontend
-│   ├── src
-│   │   ├── pages
-│   │   │   ├── index.tsx
-│   │   │   ├── create-poll.tsx
-│   │   │   └── polls
-│   │   │       ├── [pollId].tsx
-│   │   │       └── [pollId]
-│   │   │           └── edit.tsx
-│   │   ├── components
-│   │   │   ├── PollCard.tsx
-│   │   │   ├── PollForm.tsx
-│   │   │   ├── PollOptions.tsx
-│   │   │   ├── PollResults.tsx
-│   │   │   ├── Layout.tsx
-│   │   │   └── ui
-│   │   │       ├── Button.tsx
-│   │   │       ├── Card.tsx
-│   │   │       ├── Input.tsx
-│   │   │       └── Progress.tsx
-│   │   ├── styles
-│   │   │   └── globals.css
-│   │   └── types
-│   │       └── poll.ts
-│   ├── public
-│   │   └── favicon.ico
-│   ├── package.json
-│   ├── tailwind.config.js
-│   ├── postcss.config.js
-│   ├── tsconfig.json
-│   └── README.md
-└── README.md
-```
-
 ## Backend Setup
 1. Navigate to the `backend` directory.
 2. Install dependencies:
