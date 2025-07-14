@@ -12,7 +12,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 </div>
             </main>
             <footer className="bg-gray-800 text-white text-center p-4">
-                <p>&copy; {new Date().getFullYear()} Quick Poll Creator. All rights reserved.</p>
+                <p>Quick Poll Creator, by Tanmay Deshmukh</p>
             </footer>
         </div>
     );

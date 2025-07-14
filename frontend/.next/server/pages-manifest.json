@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/create-poll": "pages/create-poll.js",
+  "/polls/[pollId]": "pages/polls/[pollId].js",
+  "/": "pages/index.js",
+  "/polls/[pollId]/edit": "pages/polls/[pollId]/edit.js"
 }

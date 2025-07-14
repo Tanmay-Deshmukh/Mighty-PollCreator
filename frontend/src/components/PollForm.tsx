@@ -22,11 +22,6 @@ const PollForm: React.FC<PollFormProps> = ({
     const [options, setOptions] = useState<string[]>(initialOptions);
     const [error, setError] = useState<string | null>(null);
 
-    useEffect(() => {
-        setQuestion(initialQuestion);
-        setOptions(initialOptions);
-    }, [initialQuestion, initialOptions]);
-
     const handleOptionChange = (index: number, value: string) => {
         const newOptions = [...options];
         newOptions[index] = value;
